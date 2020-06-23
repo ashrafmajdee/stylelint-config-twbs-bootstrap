@@ -21,7 +21,7 @@ module.exports = {
     'scss/dollar-variable-colon-space-before': 'never',
     'scss/dollar-variable-no-missing-interpolation': true,
     'scss/dollar-variable-pattern': '^[a-z][a-z-\\d]*$',
-    'scss/map-keys-quotes': 'always',
+    'scss/map-keys-quotes': null, // This doesn't work well yet
     'scss/media-feature-value-dollar-variable': null,
     'scss/no-duplicate-dollar-variables': [
       null,
